@@ -9,7 +9,7 @@ const Home: React.FC = () => {
   const [gameMode, setGameMode] = useState<"ai" | "local" | "online">("ai");
   const [aiDifficulty, setAIDifficulty] = useState<
     "easy" | "medium" | "hard" | "impossible"
-  >("medium");
+  >("hard");
   const [isTimerEnabled, setIsTimerEnabled] = useState(false);
   const [timerDuration, setTimerDuration] = useState(30);
   const theme = useTheme();
